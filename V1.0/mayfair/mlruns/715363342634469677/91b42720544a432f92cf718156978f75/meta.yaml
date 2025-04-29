@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Kenny%20Ogundana/Downloads/sentiment_analysis/mayfair/mlruns/715363342634469677/91b42720544a432f92cf718156978f75/artifacts
+end_time: 1744836288603
+entry_point_name: ''
+experiment_id: '715363342634469677'
+lifecycle_stage: active
+run_id: 91b42720544a432f92cf718156978f75
+run_name: XGBoost
+run_uuid: 91b42720544a432f92cf718156978f75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744836251055
+status: 3
+tags: []
+user_id: Kenny Ogundana

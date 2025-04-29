@@ -1,0 +1,22 @@
+# docker-compose.yml
+
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - "10000:10000"
+
+
+
+# # docker-compose.yml
+
+# version: "3.8"
+
+# services:
+#   sentiment_api:
+#     build: .
+#     container_name: mayfair
+#     ports:
+#       - "8000:8000"
+#     restart: unless-stopped

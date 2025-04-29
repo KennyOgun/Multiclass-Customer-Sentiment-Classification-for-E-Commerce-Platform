@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pandas
+scikit-learn
+nltk
+emoji
+joblib
+numpy
+streamlit
+matplotlib
+textblob
+seaborn
+lime
+langdetect

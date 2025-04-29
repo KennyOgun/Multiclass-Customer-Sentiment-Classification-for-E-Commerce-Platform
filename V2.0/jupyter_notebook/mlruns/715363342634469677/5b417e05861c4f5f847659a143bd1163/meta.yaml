@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Kenny%20Ogundana/Downloads/sentiment_analysis/mayfair/mlruns/715363342634469677/5b417e05861c4f5f847659a143bd1163/artifacts
+end_time: 1744837455829
+entry_point_name: ''
+experiment_id: '715363342634469677'
+lifecycle_stage: active
+run_id: 5b417e05861c4f5f847659a143bd1163
+run_name: LogisticRegression
+run_uuid: 5b417e05861c4f5f847659a143bd1163
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744837440350
+status: 4
+tags: []
+user_id: Kenny Ogundana
