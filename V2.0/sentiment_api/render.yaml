@@ -3,5 +3,7 @@ services:
     name: sentiment-api
     env: python
     plan: free
-    buildCommand: ""
-    startCommand: ./start.sh
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash start.sh
+    rootDir: V2.0/sentiment_api
+    autoDeploy: true
