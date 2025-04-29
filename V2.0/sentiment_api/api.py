@@ -13,6 +13,7 @@ import numpy as np
 
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 
 app = FastAPI(title="Multiclass Sentiment Analysis API") # initialize the api
 
