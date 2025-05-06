@@ -12,3 +12,6 @@ This project focused on extracting and analyzing customer reviews from AliExpres
 Through iterative model development, collaborative data engineering, and full-cycle deployment (FastAPI, Streamlit, Docker, Render), the final solution delivered a robust sentiment classification API capable of distinguishing between positive, neutral, and negative sentiments with high reliability.
 
 ----
+
+
+![image](https://github.com/user-attachments/assets/29b07c40-638f-42c1-8aec-e66b142d7bb9)
