@@ -45,15 +45,21 @@ MayFair aims to improve customer experience by leveraging sentiment analysis on 
 
 1. **Data Collection:** We collaborated with the Data Engineering Team for data acquisition through web scraping and data extraction. The final dataset consists of 12,821 rows and 5 features:
 
-  * Review ID : 
+  * Review ID : A unique identifier assigned to each review, used to distinguish one review from another.
 
-  * Review Content
+  * Review Content: The textual content of the customer review, typically containing opinions, feedback, or comments about a product or service.
 
-  * Rating
+  * Rating: A numerical score given by the reviewer to rate their experience. Typically ranges from 1 to 5, where:
 
-  * Date
+     * 1: Very Negative
+     * 2: Negative
+     * 3: Neutral
+     * 4: Positive
+     * 5: Very Positive
 
-  * Country
+  * Date : The date when the review was posted, used for analyzing trends over time or examining recent feedback.
+
+  * Country: The geographic location from where the review was submitted, useful for regional sentiment analysis or localization insights.
 
 The most critical feature for sentiment analysis is **Review Content**, which we used as the primary input for model training. The data contained 1% duplicate entries and 5% missing values in the review content field.
 
@@ -116,7 +122,7 @@ The distribution of ratings shows that we have an imbalance dataset consist of 5
 ![image](https://github.com/user-attachments/assets/2edad0af-a010-484d-bdfe-aada3224c629)
 
 
-5. **Modeling: Training and Evaluation **
+5. **Modeling: Training and Evaluation**
 
  * **Rule-Based Models:** We established baseline performance using rule-based sentiment analysis techniques.
  * **ML Models:** And experimented with multiple machine learning models.
@@ -129,20 +135,25 @@ The distribution of ratings shows that we have an imbalance dataset consist of 5
 
 **Best Model: Support Vector Machine (SVM) with an accuracy of 0.78 and an AUC score of 0.86.**
 
-**Why**:
+**Why**: The model 
   * Achieves the highest accuracy and AUC score.
   * Shows superior performance on the Positive class, which dominates the dataset.
   * Maintains a good balance between Positive and Negative predictions, despite challenges with the Neutral class.
   * Generalizes well to new data, as indicated by the AUC.
 
+
 6. **Model Interpretation**
 
    * We used LIME (Local Interpretable Model-Agnostic Explanations) for interpretability, allowing us to explain individual predictions effectively.
+
 
 7. **Deployment**
 
   * The best-performing model (SVM) was deployed using Streamlit, FastAPI, and Docker, and hosted on Render. The application can be accessed through the provided link.
 
+      **Root Endpoint / Swagger Documentation:**
+
+       https://multiclass-sentiment-analysis-api.onrender.com/docs
 
 # Conclusion
 
